@@ -9,7 +9,7 @@ const SectionContent = (props) => {
     }
 
   return (
-    <>
+    <div>
     <div className="section-content">
     <span className="span-area my-2">INPUT</span>
     <textarea className="text-area" value={text} onChange={handleOnChange}></textarea>
@@ -18,7 +18,7 @@ const SectionContent = (props) => {
     <span className="span-area my-2">OUTPUT</span>
     <textarea className="text-area" value={CryptoJS.MD5(text)}></textarea>
     </div>
-    </>
+    </div>
   );
 };
 

@@ -26,7 +26,7 @@ function App() {
     setValue(CryptoJS.SHA256(text))
   }
   return (
-    <>
+    <div>
     <div>
       <Navbar/>
     </div>
@@ -62,7 +62,7 @@ function App() {
       </div>  
       </div> 
     </div>
-    </>
+    </div>
   );
 }
 
