@@ -17,6 +17,7 @@
 .text-area {
     height: 340px;
     margin-top:-5px;
+    resize: none;
     margin-bottom:4px;
 }
 .span-area my-2{
@@ -27,4 +28,5 @@
     height: 720px;
     margin-top:-5px;
     margin-bottom:4px; 
+    resize: none;
 }
