@@ -1,11 +1,10 @@
 import React, {useState} from 'react';              //Importing React 
-import Navbar from './MyComponents/Navbar';           //Importing Navbar
 import './App.css';           //Importing css file
-import { VerticalLine,LastSection } from './MyComponents/splitscreen';     //Importing various sections
-import Footer from './MyComponents/footer';
+import { LastSection } from './MyComponents/splitscreen';     
 import './App.css'
 import './MyComponents/buttonsection.css'
 import './MyComponents/sectioncontent.css'
+import Navbar from './MyComponents/Navbar';           //Importing Navbar
 import CryptoJS from 'crypto-js';
 
 function App() {  
@@ -14,8 +13,6 @@ function App() {
   const handleOnChange = (event) => {
     setText(event.target.value)
   }
-  // let x = text
-  // setValue(text)
   const handleMD5 = () => {
     setValue(CryptoJS.MD5(text))
   }
@@ -53,9 +50,7 @@ function App() {
         <button className="custom-button">Lorem</button>
       </div>
       </div>
-      <VerticalLine />
       <LastSection />
-      <VerticalLine />
       <div className='right-section'>
       <div className="section-content">
         <span className="span-area my-2">INPUT</span>
@@ -66,9 +61,6 @@ function App() {
         <textarea className="text-area" value={value}></textarea>
       </div>  
       </div> 
-    </div>
-    <div>
-    <Footer/>
     </div>
     </>
   );
