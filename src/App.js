@@ -65,7 +65,7 @@ function App() {
       <div className='last-section'>
       <div className="section-content-2">
     <span className="span-area my-2">More About It</span>
-    
+    <textarea className="text-area-2" value={value}></textarea>
     </div>
     </div>
    
