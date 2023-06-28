@@ -1,8 +1,8 @@
-.section-content {
+.section-content-2 {
     display: flex;
     flex-direction: column;
     margin-top: -7px;
-    margin-bottom: 0px;
+    margin-bottom: -4px;
 
 }
 
@@ -11,14 +11,11 @@
     color: white;
     text-align: center;
     padding: 5px;
-   
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
 
-.text-area {
-    height: 340px;
-    margin-top:-5px;
-    margin-bottom:4px;
-}
+
 .span-area my-2{
     margin-top: -2px;
     margin-bottom: -2px;

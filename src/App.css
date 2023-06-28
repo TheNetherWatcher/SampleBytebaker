@@ -1,6 +1,7 @@
+
 .app {
     display: flex;
-    height: 100vh; /* Adjust as needed */
+    /* Adjust as needed */
   }
   
   .left-section {
@@ -14,7 +15,7 @@
   .vertical-line {
     width: 1px;
     background-color: #232222;
-    margin: 0 10px; /* Adjust the margin as needed */
+    margin: 1px; /* Adjust the margin as needed */
 
     
   }
@@ -22,13 +23,13 @@
   .right-section {
     flex: 40%;
     background-color: #ffffff;
-
+   
   }
 
   .last-section {
     flex: 40%;
     background-color: white;
-  
+    
   }
   
 

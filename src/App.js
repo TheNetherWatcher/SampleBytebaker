@@ -1,12 +1,14 @@
 import React, {useState} from 'react';              //Importing React 
 import Navbar from './MyComponents/Navbar';           //Importing Navbar
 import './App.css';           //Importing css file
-import { VerticalLine,LastSection } from './MyComponents/splitscreen';     //Importing various sections
+import { VerticalLine} from './MyComponents/splitscreen';     //Importing various sections
 import Footer from './MyComponents/footer';
 import './App.css'
 import './MyComponents/buttonsection.css'
 import './MyComponents/sectioncontent.css'
+import './MyComponents/sectioncontent2.css'
 import CryptoJS from 'crypto-js';
+
 
 
 function App() {  
@@ -35,8 +37,13 @@ function App() {
       <Navbar/>
     </div>
     <div className="app">
-      <div className='left-section'>
+      <div className='left-section' >
+      <div className="section-content-2">
+    <span className="span-area my-2">OPERATIONS</span>
+    
+    </div>
       <div className="button-group">
+     
         <button className="custom-button" onClick={handleMD5}>MD5</button>
         <button className="custom-button" onClick={handleSHA1}>SHA-1</button>
         <button className="custom-button" onClick={handleSHA224}>SHA-224</button>
@@ -55,7 +62,13 @@ function App() {
       </div>
       </div>
       <VerticalLine />
-      <LastSection />
+      <div className='last-section'>
+      <div className="section-content-2">
+    <span className="span-area my-2">More About It</span>
+    
+    </div>
+    </div>
+   
       <VerticalLine />
       <div className='right-section'>
       <div className="section-content">
