@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 ByteBaker. All rights reserved.</p>
         <nav>
           <ul>
             <li><a href="/">Home</a></li>

@@ -6,6 +6,7 @@
     align-items: flex-start;
     width: 100%;
     max-width: 450px; /* Adjust the max-width as needed */
+    
   }
   
   .custom-button {
@@ -21,7 +22,7 @@
   }
   
   .custom-button:hover {
-    background-color: #afacac;
+    background-color: #969494;
   }
   
   

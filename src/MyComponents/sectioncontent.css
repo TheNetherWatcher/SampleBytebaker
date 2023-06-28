@@ -9,8 +9,16 @@
     color: white;
     text-align: center;
     padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .text-area {
-    height: 350px;
+    height: 307px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.span-area my-2{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
